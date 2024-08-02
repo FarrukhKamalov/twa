@@ -111,8 +111,19 @@ const Tasks = () => {
             })}
           </div>
 
-          <div className="pb-10">
-            {/* <div className="mt-8">
+          {/* <div className="pb-10">
+           
+          </div> */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+
+
+
+ {/* <div className="mt-8">
               <h1 className="text-white text-[25px] font-medium text-start mb-8">
                 Your Rewards
               </h1>
@@ -143,11 +154,4 @@ const Tasks = () => {
                 );
               })}
             </div> */}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
 export default Tasks;
