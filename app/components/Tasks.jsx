@@ -53,38 +53,7 @@ const tasks = [
     name: "Make a TON Transaction",
     title: "+3,000 DOGS",
     button: "Check",
-  },
-
-  {
-    id: 7,
-    icon: <FaCheck />,
-    name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
-    button: "Start",
-  },
-
-  {
-    id: 8,
-    icon: <FaCheck />,
-    name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
-    button: "Check",
-  },
-  {
-    id: 9,
-    icon: <FaCheck />,
-    name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
-    button: "Chek",
-  },
-
-  {
-    id: 10,
-    icon: <FaCheck />,
-    name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
-    button: "Start",
-  },
+  }
 ];
 
 // const rewards = [
@@ -142,8 +111,8 @@ const Tasks = () => {
             })}
           </div>
 
-          {/* <div className="pb-10">
-            <div className="mt-8">
+          {/* <div className="pb-10"> */}
+            {/* <div className="mt-8">
               <h1 className="text-white text-[25px] font-medium text-start mb-8">
                 Your Rewards
               </h1>
