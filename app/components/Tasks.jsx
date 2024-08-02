@@ -142,12 +142,12 @@ const Tasks = () => {
             })}
           </div>
 
-          <div className="pb-10">
+{/*           <div className="pb-10">
             <div className="mt-8">
               <h1 className="text-white text-[25px] font-medium text-start mb-8">
                 Your Rewards
               </h1>
-            </div>
+            </div> */}
 
             {/* <div className="flex flex-col justify-between gap-5">
               {rewards.map((items, index) => {
