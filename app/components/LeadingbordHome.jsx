@@ -7,7 +7,7 @@ const LeadingbordHome = () => {
         <div>
           <div className="flex items-center justify-center">
             <h1 className="text-white font-bold text-[25px] sm:text-[25px] md:text-[35px] lg:text-[40px] xl:text-[45px]">
-              Telegram Wall of Fame
+              Telegram Wall of Fame fffd
             </h1>
           </div>
 
