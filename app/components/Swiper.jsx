@@ -36,13 +36,12 @@
 //   );
 // }
 
+'use client'
 
 
-"use client";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 export default function SliderPage() {
   return (
@@ -53,7 +52,7 @@ export default function SliderPage() {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}  // Bu qatorni qo'shishingiz kerak
+        modules={[Pagination]} // To'g'ridan-to'g'ri shu yerda foydalaniladi
         className="mySwiper"
       >
         <SwiperSlide>
@@ -65,16 +64,16 @@ export default function SliderPage() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="bg-black text-white p-6 rounded-lg">
-            <h2 className="text-xl font-bold">Share your OG Status</h2>
-            <p className="mt-2">In Telegram stories</p>
-            <button className="bg-white text-black px-4 py-2 mt-4 rounded-full">Share</button>
+            <h2 className="text-xl font-bold">Another Slide</h2>
+            <p className="mt-2">Description here</p>
+            <button className="bg-white text-black px-4 py-2 mt-4 rounded-full">Click Me</button>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="bg-black text-white p-6 rounded-lg">
-            <h2 className="text-xl font-bold">Share your OG Status</h2>
-            <p className="mt-2">In Telegram stories</p>
-            <button className="bg-white text-black px-4 py-2 mt-4 rounded-full">Share</button>
+            <h2 className="text-xl font-bold">Third Slide</h2>
+            <p className="mt-2">More info</p>
+            <button className="bg-white text-black px-4 py-2 mt-4 rounded-full">Learn More</button>
           </div>
         </SwiperSlide>
       </Swiper>
