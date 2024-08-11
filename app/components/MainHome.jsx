@@ -14,14 +14,13 @@ const MainHome = () => {
 
               <div className="w-[250px] h-[]">
                 <img
-                  src="/assets/images/Artboard_2_2x-100-removebg-preview.png"
+                  src="/assets/images/photo_2024-08-11_15-19-33.jpg"
                   className="w-full"
                   alt="no image"
                 />
               </div>
               <div className="flex flex-col items-center">
-                <h2 className="text-white font-bold text-[37px]">2500</h2>
-                <p className="text-white/60 font-medium text-[34px]">DOGS</p>
+
               </div>
             </div>
           </div>
