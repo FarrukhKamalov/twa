@@ -14,8 +14,8 @@ const MainHome = () => {
 
               <div className="w-[250px] h-[]">
                 <img
-                  src="file:///home/ramziddin/Downloads/Artboard_2_2x-100-removebg-preview.png"
-                  className="w-full p-8"
+                  src="/assets/images/dog-game-removebg-preview.png"
+                  className="w-full"
                   alt="no image"
                 />
               </div>

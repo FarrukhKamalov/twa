@@ -7,7 +7,7 @@ const LeadingbordHome = () => {
         <div>
           <div className="flex items-center justify-center">
             <h1 className="text-white font-bold text-[25px] sm:text-[25px] md:text-[35px] lg:text-[40px] xl:text-[45px]">
-              Telegram Wall of Fame fffd
+              Telegram Wall of Fame
             </h1>
           </div>
 
@@ -19,7 +19,7 @@ const LeadingbordHome = () => {
                     FK
                   </AvatarFallback>
                 </Avatar>
-                <div className="text-white flex justify-between items-center gap-14">
+                <div className="text-white flex justify-between items-center gap-6">
                   <div>
                     <p className="text-[15px] font-medium">kamalov_farrukh</p>
                     <p className="text-[15px] font-medium text-white/60">
