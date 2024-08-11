@@ -17,7 +17,7 @@ const tasks = [
 
   {
     id: 2,
-    icon: <FaTelegramPlane />,
+    icon: <FaTelegramPlane />,  
     name: "Make a TON Transaction",
     title: "+3,000 DOGS",
     button: "Start",

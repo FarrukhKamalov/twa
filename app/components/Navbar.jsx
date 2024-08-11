@@ -2,7 +2,7 @@
 
 import { RiHomeLine } from "react-icons/ri";
 import { SiSimpleanalytics } from "react-icons/si";
-import { FaUserFriends } from "react-icons/fa";
+import { FaUserFriends,FaTasks } from "react-icons/fa";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -51,6 +51,19 @@ const Navbar = () => {
               >
                 <FaUserFriends className="text-[25px] text-white/70" />
                 <h1 className="text-[15px]">Friends</h1>
+              </Link>
+            </li>
+            <li className="">
+              <Link
+                href="/tasks"
+                className={
+                  pathname === "/"
+                    ? "flex flex-col items-center text-white"
+                    : "flex flex-col items-center text-white/70"
+                }
+              >
+                <FaTasks className="text-[25px] text-white/70" />
+                <h1 className="text-[15px]">Tasks</h1>
               </Link>
             </li>
           </ul>
