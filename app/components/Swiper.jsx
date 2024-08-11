@@ -41,6 +41,9 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
 
 export default function SliderPage() {
   return (
@@ -51,6 +54,7 @@ export default function SliderPage() {
         pagination={{
           clickable: true,
         }}
+        modules={[Pagination]}  // Bu qatorni qo'shishingiz kerak
         className="mySwiper"
       >
         <SwiperSlide>
