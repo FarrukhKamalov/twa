@@ -14,7 +14,7 @@ const MainHome = () => {
 
               <div className="w-[250px] h-[]">
                 <img
-                  src="/public/assets/images/dogsss.png"
+                  src="/assets/images/dogsss.png"
                   className="w-full"
                   alt="no image"
                 />
