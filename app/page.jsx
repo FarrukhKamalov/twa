@@ -18,7 +18,7 @@ function Home() {
     <main className="p-4">
       {userData ? (
         <>
-          <ul>
+          <ul className='mb-8'>
             <li className='text-white font-bold text-center'>{userData.username || userData.first_name}</li>
           </ul>
           <div>
