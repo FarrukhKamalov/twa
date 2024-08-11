@@ -19,7 +19,7 @@ const LeadingbordHome = () => {
                     FK
                   </AvatarFallback>
                 </Avatar>
-                <div className="text-white flex justify-between items-center gap-6">
+                <div className="text-white flex justify-between items-center gap-6 w-auto">
                   <div>
                     <p className="text-[15px] font-medium">kamalov_farrukh</p>
                     <p className="text-[15px] font-medium text-white/60">
