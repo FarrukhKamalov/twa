@@ -10,7 +10,7 @@ const MainHome = () => {
 
   useEffect(() => {
     WebApp.ready();
-    if (WebApp.initDataUnsafe.user) {
+    if (WebApp.initDataUnsafe && WebApp.initDataUnsafe.user) {
       setUserData(WebApp.initDataUnsafe.user);
     }
   }, []);
@@ -24,18 +24,16 @@ const MainHome = () => {
               {userData.username || userData.first_name}
             </li>
             <button className="bg-white flex gap-2 items-center rounded-sm p-2 w-[150px]">
-                <MdCastConnected className="text-[15px]" />
-                <span className="text-[15px] font-medium">
-                    Connect wallet
-                </span>
+              <MdCastConnected className="text-[15px]" />
+              <span className="text-[15px] font-medium">Connect wallet</span>
             </button>
           </ul>
           <div>
             <div className="w-full">
-              <div className=" container mx-auto">
+              <div className="container mx-auto">
                 <div className="flex flex-col gap-5 items-center justify-center">
                   <div className="flex flex-col items-center">
-                    <div className="w-[250px] h-[]">
+                    <div className="w-[250px]">
                       <img
                         src="/assets/images/505.png"
                         className="w-full"
