@@ -14,13 +14,13 @@ const MainHome = () => {
 
               <div className="w-[250px] h-[]">
                 <img
-                  src="/assets/images/photo_2024-08-11_15-19-33.jpg"
+                  src="/assets/images/photo_2024-08-11_15-24-08.jpg"
                   className="w-full"
                   alt="no image"
                 />
               </div>
               <div className="flex flex-col items-center">
-
+                <h2 className="text-white font-bold text-[37px]">Blynd</h2>
               </div>
             </div>
           </div>
