@@ -21,11 +21,11 @@ function Home() {
         <>
           <h1 className="text-2xl font-bold mb-4 text-white">User Data</h1>
           <ul>
-            <li className='text-white font-bold text-center'>ID: {userData.id}</li>
-            <span className='text-white font-bold text-center'>First Name: {userData.first_name}</span>
-            <span className='text-white font-bold text-center'>Last Name: {userData.last_name || 'N/A'}</span>
-            <li className='text-white font-bold text-center'>Username: {userData.username || 'N/A'}</li>
-            <li className='text-white font-bold text-center'>Is Premium: {userData.is_premium ? 'Yes' : 'No'}</li>
+            <span className='text-white font-bold text-center'>{userData.first_name}</span>
+            <span className='text-white font-bold text-center'>{userData.last_name || 'N/A'}</span>
+            <li className='text-white font-bold text-center'>{userData.id}</li>
+            <li className='text-white font-bold text-center'>{userData.username || 'N/A'}</li>
+            <li className='text-white font-bold text-center'>{userData.is_premium ? 'Yes' : 'No'}</li>
           </ul>
           <div>
             <MainHome />
