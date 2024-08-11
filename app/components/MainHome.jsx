@@ -7,7 +7,7 @@ const MainHome = () => {
         <div className=" container mx-auto">
           <div className="flex flex-col gap-5 items-center justify-center">
             <div className="flex flex-col items-center">
-              <button className="bg-white flex gap-2 items-center rounded-sm p-2 w-[150px]">
+              <button className="bg-white flex gap-2 items-center rounded-sm p-2 w-[150px] mt-8 mb-8">
                 <MdCastConnected className="text-[15px]" />
                 <span className="text-[15px] font-medium">Connect wallet</span>
               </button>
