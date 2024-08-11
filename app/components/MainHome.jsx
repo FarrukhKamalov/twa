@@ -16,7 +16,7 @@ const MainHome = () => {
               <div className="w-[250px] h-[]">
                 <img
                   src="/assets/images/505.png"
-                  className="w-40 flex justify-center items-center"
+                  className="w-40 flex justify-center items-center ml-4"
                   alt="no image"
                 />
               </div>
