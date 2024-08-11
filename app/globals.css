@@ -119,15 +119,6 @@ body {
   object-fit: cover;
 }
 
-
-
-
-
-.clip-path-polygon {
-  clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
-}
-
-
 .post{
   background-color: white;
   width: 90% ;

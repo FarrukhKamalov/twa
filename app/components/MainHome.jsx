@@ -6,13 +6,6 @@ const MainHome = () => {
   return (
     <div>
       <div className="w-full">
-        <div className="relative h-8 w-full bg-black">
-          <div className="absolute inset-0 z-10 flex items-center justify-center text-white text-xl font-semibold">
-            <FaPlayCircle className="mr-2" />
-            Your Score
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 clip-path-polygon"></div>
-        </div>
         <div className=" container mx-auto">
           <div className="flex flex-col gap-5 items-center justify-center">
             <div className="flex flex-col items-center">
