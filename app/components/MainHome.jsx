@@ -24,12 +24,12 @@ const MainHome = () => {
             <li className="text-white font-bold text-center">
               {userData.username || userData.first_name}
             </li>
-            <button className="bg-white flex gap-2 items-center rounded-sm p-2 w-[150px]">
-                <MdCastConnected className="text-[15px]" />
-                <span className="text-[15px] font-medium">
-                  Connect wallet
-                </span>
-            </button>
+            <li className="bg-white flex gap-2 items-center rounded-sm p-2 w-[150px]">
+                  <MdCastConnected className="text-[15px]" />
+                  <span className="text-[15px] font-medium">
+                    Connect wallet
+                  </span>
+            </li>
           </ul>
           <div>
             <div className="w-full">
