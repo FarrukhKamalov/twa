@@ -9,14 +9,14 @@ const MainHome = () => {
         <div className=" container mx-auto">
           <div className="flex flex-col gap-5 items-center justify-center">
             <div className="flex flex-col items-center">
-              <button className="bg-white flex gap-2 items-center rounded-sm p-2 w-[150px] mt-4 mb-4">
+              <button className="bro bg-white flex gap-2 items-center rounded-sm p-2 w-[150px] mt-2 mb-2">
                 <MdCastConnected className="text-[11px]" />
                 <span className="text-[11px] font-medium">Connect wallet</span>
               </button>
               <div className="w-[250px] h-[]">
                 <img
                   src="/assets/images/505.png"
-                  className="w-32 ml-14"
+                  className="w-32 flex justify-center"
                   alt="no image"
                 />
               </div>
