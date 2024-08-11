@@ -1,33 +1,42 @@
-'use client'
+'use client';
 
-
-import { useEffect, useState } from "react"
-import React from "react";
-import MainHome from "./components/MainHome";
 import WebApp from '@twa-dev/sdk';
-const Page = () => {
+import { useEffect, useState } from 'react';
+import MainHome from './components/MainHome';
+
+// Define the interface for user data
+function Home() {
   const [userData, setUserData] = useState(null);
 
   useEffect(() => {
-    WebApp.ready();
-    setUserData({
-      username: WebApp.initDataUnsafe.user.username,
-      firstname: WebApp.initDataUnsafe.user.first_name,
-      lastname: WebApp.initDataUnsafe.user.last_name,
-      id: WebApp.initDataUnsafe.user.id,
-      language_code: WebApp.initDataUnsafe.user.language_code
-    });
+    WebApp.ready(); // Ensure the WebApp is fully ready
+    if (WebApp.initDataUnsafe.user) {
+      setUserData(WebApp.initDataUnsafe.user);
+    }
   }, []);
 
-  if (!userData) {
-    return <div>Loading...</div>;
-  }
-
   return (
-    <div>
-      <MainHome/>
-    </div>
+    <main className="p-4">
+      {userData ? (
+        <>
+          <h1 className="text-2xl font-bold mb-4">User Data</h1>
+          <ul>
+            <li>ID: {userData.id}</li>
+            <li>First Name: {userData.first_name}</li>
+            <li>Last Name: {userData.last_name || 'N/A'}</li>
+            <li>Username: {userData.username || 'N/A'}</li>
+            <li>Language Code: {userData.language_code}</li>
+            <li>Is Premium: {userData.is_premium ? 'Yes' : 'No'}</li>
+          </ul>
+          <div>
+            <MainHome />
+          </div>
+        </>
+      ) : (
+        <div>Loading...</div>
+      )}
+    </main>
   );
-};
+}
 
-export default Page;
+export default Home;
