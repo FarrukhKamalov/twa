@@ -20,7 +20,7 @@ function Home() {
         <>
           <h1 className="text-2xl font-bold mb-4 text-white text-center">User Data</h1>
           <ul>
-            <span className='text-white font-bold text-center'>{userData.first_name}  {userData.last_name || 'N/A'}</span>
+            <li className='text-white font-bold text-center'>{userData.first_name}</span>
             <li className='text-white font-bold text-center'>{userData.id}</li>
             <li className='text-white font-bold text-center'>{userData.username || 'N/A'}</li>
             <li className='text-white font-bold text-center'>{userData.is_premium ? 'Yes' : 'No'}</li>
