@@ -13,7 +13,7 @@ const MainHome = () => {
               </button>
               <div className="w-[250px] h-[]">
                 <img
-                  src="/public/assets/images/505.png"
+                  src="/assets/images/505.png"
                   className="w-full"
                   alt="no image"
                 />
