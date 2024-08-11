@@ -1,33 +1,37 @@
-import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+'use client';
 
-import "swiper/css";
-import "swiper/css/pagination";
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { Pagination } from "swiper/modules";
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
-const Swiperss = () => {
+// import required modules
+import { Pagination } from 'swiper/modules';
+
+export default function App() {
   return (
     <>
       <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
-        <SwiperSlide>
-          <h1>Share your OG status</h1>
+      <SwiperSlide>
+          <h1>Share your og
+             status</h1>
           <p>in telegram stories</p>
           <button><span>Share</span></button>
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Share your OG status</h1>
+          <h1>Share your og status</h1>
           <p>in telegram stories</p>
           <button><span>Share</span></button>
-
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Share your OG status</h1>
+          <h1>Share your og status</h1>
           <p>in telegram stories</p>
           <button><span>Share</span></button>
         </SwiperSlide>
       </Swiper>
     </>
   );
-};
-export default Swiperss;
+}

@@ -6,7 +6,10 @@
   padding: 0;
   margin: 0;
 }
-
+h1{
+  padding: 0;
+  margin: 0;
+}
 body {
   background-color: black;
 }
@@ -77,10 +80,12 @@ body {
   }
 }
 .swiper{
-  height: 200px;
+  height: 130px;
+  margin: 20px;
 }
 .swiper-slide {
-  padding: 30px;
+  padding: 10px;
+  width: 350px;
   border-radius: 20px;
   background: rgb(31, 29, 29);
   display: flex;
@@ -90,7 +95,7 @@ body {
 
 .swiper-slide h1{
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 .swiper-slide button{
@@ -99,7 +104,7 @@ body {
   border-radius: 14px;
   margin-top: 5px;
   span{
-    font-size: 20px;  
+    font-size: 15px;
   }
 }
 
@@ -112,4 +117,22 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+
+
+
+.clip-path-polygon {
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+}
+
+
+.post{
+  background-color: white;
+  width: 90% ;
+  color: black;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 80px;
 }
