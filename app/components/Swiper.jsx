@@ -37,12 +37,10 @@
 // }
 
 
-// page.jsx
 
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper-bundle.min.css";
 
 export default function SliderPage() {
   return (
