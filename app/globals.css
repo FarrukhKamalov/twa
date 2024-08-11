@@ -90,7 +90,8 @@ body {
 
 .swiper-slide h1{
   color: white;
-  font-size: 35px;
+  font-size: 30px;
+  font-weight: 600;
 }
 .swiper-slide button{
   background-color: white;

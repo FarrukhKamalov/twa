@@ -11,18 +11,18 @@ const Swiperss = () => {
     <>
       <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
         <SwiperSlide>
-          <h1>Share your og status</h1>
+          <h1>Share your OG status</h1>
           <p>in telegram stories</p>
           <button><span>Share</span></button>
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Share your og status</h1>
+          <h1>Share your OG status</h1>
           <p>in telegram stories</p>
           <button><span>Share</span></button>
 
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Share your og status</h1>
+          <h1>Share your OG status</h1>
           <p>in telegram stories</p>
           <button><span>Share</span></button>
         </SwiperSlide>
