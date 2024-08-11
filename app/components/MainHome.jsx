@@ -1,5 +1,5 @@
 import { MdCastConnected } from "react-icons/md";
-
+import Swiper from "./Swiper"
 const MainHome = () => {
   return (
     <div>
@@ -25,6 +25,7 @@ const MainHome = () => {
             </div>
           </div>
         </div>
+        <Swiper/>
       </div>
     </div>
   );

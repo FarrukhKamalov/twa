@@ -71,3 +71,43 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+.swiper {
+  width: 400px;
+  height: 160px;
+}
+
+.swiper-slide {
+  padding-left: 30px;
+  border-radius: 20px;
+  background: rgb(31, 29, 29);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide h1{
+  color: white;
+  font-size: 35px;
+}
+.swiper-slide button{
+  background-color: white;
+  padding: 0px 15px;
+  border-radius: 14px;
+  margin-top: 10px;
+  span{
+    font-size: 20px;  
+  }
+}
+
+.swiper-slide p{
+  color: white;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
