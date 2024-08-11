@@ -18,12 +18,8 @@ function Home() {
     <main className="p-4">
       {userData ? (
         <>
-          <h1 className="text-2xl font-bold mb-4 text-white text-center">User Data</h1>
           <ul>
-            <li className='text-white font-bold text-center'>{userData.first_name}</li>
-            <li className='text-white font-bold text-center'>{userData.id}</li>
-            <li className='text-white font-bold text-center'>{userData.username || 'N/A'}</li>
-            <li className='text-white font-bold text-center'>{userData.is_premium ? 'Yes' : 'No'}</li>
+            <li className='text-white font-bold text-center'>{userData.username || userData.first_name}</li>
           </ul>
           <div>
             <MainHome />
