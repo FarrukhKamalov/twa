@@ -4,7 +4,7 @@ const MainHome = () => {
   return (
     <div>
       <div className="w-full">
-        <div className=" container mx-auto py-12">
+        <div className=" container mx-auto">
           <div className="flex flex-col gap-5 items-center justify-center">
             <div className="flex flex-col items-center">
               <button className="bg-white flex gap-2 items-center rounded-sm p-2 w-[150px]">
@@ -14,7 +14,7 @@ const MainHome = () => {
 
               <div className="w-[250px] h-[]">
                 <img
-                  src="/assets/images/dogsss.png"
+                  src="/assets/images/505.png"
                   className="w-full"
                   alt="no image"
                 />
@@ -25,7 +25,9 @@ const MainHome = () => {
             </div>
           </div>
         </div>
-        <Swiper/>
+        <div className="mb-12">
+          <Swiper/>
+        </div>
       </div>
     </div>
   );

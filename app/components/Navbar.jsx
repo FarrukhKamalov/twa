@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="pb-4">
+    <div className="pb-4 relative	z-50">
       <div className="w-full fixed bottom-0 bg-black py-4">
         <div className="container mx-auto">
           <ul className="flex justify-between items-center text-white relative z-50">
@@ -25,6 +25,19 @@ const Navbar = () => {
               >
                 <RiHomeLine className="text-[25px]" />
                 <h1 className="text-[15px]">Home</h1>
+              </Link>
+            </li>
+            <li className="">
+              <Link
+                href="/tasks"
+                className={
+                  pathname === "/"
+                    ? "flex flex-col items-center text-white"
+                    : "flex flex-col items-center text-white/70"
+                }
+              >
+                <FaTasks className="text-[25px] text-white/70" />
+                <h1 className="text-[15px]">Tasks</h1>
               </Link>
             </li>
             <li className="">
@@ -51,19 +64,6 @@ const Navbar = () => {
               >
                 <FaUserFriends className="text-[25px] text-white/70" />
                 <h1 className="text-[15px]">Friends</h1>
-              </Link>
-            </li>
-            <li className="">
-              <Link
-                href="/tasks"
-                className={
-                  pathname === "/"
-                    ? "flex flex-col items-center text-white"
-                    : "flex flex-col items-center text-white/70"
-                }
-              >
-                <FaTasks className="text-[25px] text-white/70" />
-                <h1 className="text-[15px]">Tasks</h1>
               </Link>
             </li>
           </ul>

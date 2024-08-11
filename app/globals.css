@@ -77,7 +77,6 @@ body {
   }
 }
 .swiper{
-  z-index: -99999;
   height: 200px;
 }
 .swiper-slide {
