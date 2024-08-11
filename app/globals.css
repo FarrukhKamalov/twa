@@ -71,7 +71,10 @@ body {
     @apply bg-background text-foreground;
   }
 }
-
+.swiper{
+  z-index: -99999;
+  height: 200px;
+}
 .swiper-slide {
   padding: 30px;
   border-radius: 20px;

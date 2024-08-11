@@ -19,8 +19,8 @@ const MainHome = () => {
                   alt="no image"
                 />
               </div>
-              <div className="flex flex-col items-center">
-                <h2 className="text-white font-bold text-[37px]">Blynd</h2>
+              <div>
+                <h2 className="text-white text-center font-bold text-[37px]">Blynd</h2>
               </div>
             </div>
           </div>
