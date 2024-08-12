@@ -13,7 +13,7 @@ const MainHome = () => {
                 <MdCastConnected className="text-[11px]" />
                 <span className="text-[11px] font-medium">Connect wallet</span>
               </button>
-              <div className="w-[250px] h-[]">
+              <div className="w-[185px] h-[]">
                 <img
                   src="/assets/images/505.png"
                   className="w-40 flex justify-center items-center ml-4"

@@ -1,91 +1,71 @@
-"use client";
+'use client'
 
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+import SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 
-// import required modules
-import { Pagination } from "swiper/modules";
+SwiperCore.use([Navigation, Pagination, Autoplay]);
 
-export default function App() {
+const Slider = () => {
   return (
-    <>
+    <div className="max-w-4xl">
       <Swiper
-        pagination={true}
-        modules={[Pagination]}
-        centeredSlides={true}
-        className="mySwiper"
+        spaceBetween={30}
+        slidesPerView={1.5}  // Bir vaqtning o'zida ikkita slayd ko'rinadi
+        centeredSlides={false}  // Slaydlar centerga joylashmasligi uchun
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+          dynamicBullets: true,
+        }}
+        className="rounded-lg shadow-lg overflow-hidden"
       >
         <SwiperSlide>
-          <h1>Share your og status</h1>
-          <p>in telegram stories</p>
-          <button>
-            <span>Share</span>
-          </button>
+          <div>
+            <h1>Share your OG status</h1>
+            <p>in telegram stories</p>
+            <button>
+              <span>Share</span>
+            </button>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Share your og status</h1>
-          <p>in telegram stories</p>
-          <button>
-            <span>Share</span>
-          </button>
+          <div>
+            <h1>Share your OG status</h1>
+            <p>in telegram stories</p>
+            <button>
+              <span>Share</span>
+            </button>
+          </div>        
         </SwiperSlide>
         <SwiperSlide>
-          <h1>Share your og status</h1>
-          <p>in telegram stories</p>
-          <button>
-            <span>Share</span>
-          </button>
+          <div>
+            <h1>Share your OG status</h1>
+            <p>in telegram stories</p>
+            <button>
+              <span>Share</span>
+            </button>
+          </div>        
+        </SwiperSlide>
+        <SwiperSlide>
+          <div>
+            <h1>Share your OG status</h1>
+            <p>in telegram stories</p>
+            <button>
+              <span>Share</span>
+            </button>
+          </div>        
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
-}
+};
 
-// 'use client'
-
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-
-// export default function SliderPage() {
-//   return (
-//     <div className="container mx-auto py-4">
-//       <Swiper
-//         spaceBetween={30}
-        // centeredSlides={true}
-// pagination={{
-//   clickable: true,
-// }}
-//         modules={[Pagination]} // To'g'ridan-to'g'ri shu yerda foydalaniladi
-//         className="mySwiper"
-//       >
-//         <SwiperSlide>
-//           <div className="bg-black text-white p-6 rounded-lg">
-//             <h2 className="text-xl font-bold">Share your OG Status</h2>
-//             <p className="mt-2">In Telegram stories</p>
-//             <button className="bg-white text-black px-4 py-2 mt-4 rounded-full">Share</button>
-//           </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//           <div className="bg-black text-white p-6 rounded-lg">
-//             <h2 className="text-xl font-bold">Another Slide</h2>
-//             <p className="mt-2">Description here</p>
-//             <button className="bg-white text-black px-4 py-2 mt-4 rounded-full">Click Me</button>
-//           </div>
-//         </SwiperSlide>
-//         <SwiperSlide>
-//           <div className="bg-black text-white p-6 rounded-lg">
-//             <h2 className="text-xl font-bold">Third Slide</h2>
-//             <p className="mt-2">More info</p>
-//             <button className="bg-white text-black px-4 py-2 mt-4 rounded-full">Learn More</button>
-//           </div>
-//         </SwiperSlide>
-//       </Swiper>
-//     </div>
-//   );
-// }
+export default Slider;

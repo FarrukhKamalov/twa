@@ -82,6 +82,21 @@ body {
     @apply bg-background text-foreground;
   }
 }
+.slick-dots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .slick-active{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+  }
+}
+
 .swiper{
   height: 150px;
   margin: 20px;
@@ -129,4 +144,39 @@ body {
   border-radius: 6px;
   position: absolute;
   bottom: 110px;
+}
+
+.swiper-button-prev, .swiper-button-next{
+  display: none;
+}
+
+/* custom-swiper.css fayli */
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px; /* Nuqtalar orasidagi masofa */
+}
+
+.swiper-pagination-bullet {
+  background: white; /* Nuqtalar qora rangda */
+  opacity: 1; /* Opaklikni 100% ga oshirish */
+  width: 10px; /* Nuqtaning kengligi */
+  height: 10px; /* Nuqtaning balandligi */
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active {
+  background: #007aff; /* Faol nuqtani boshqa rangga o'zgartirish */
+  width: 12px; /* Faol nuqtaning kengligi */
+  height: 12px; /* Faol nuqtaning balandligi */
+}
+
+/* Ikkita faqatgina uchtasi ko'rinishi uchun nuqtalarni yashirish */
+.swiper-pagination-bullet:nth-child(n+4) {
+  display: none;
+}
+
+.swiper-wrapper{
+  margin: 10px;
 }
