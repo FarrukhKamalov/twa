@@ -12,7 +12,7 @@ SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 const Slider = () => {
   return (
-    <div className="max-w-4xl">
+    <div className="max-w-4xl mb-14">
       <Swiper
         spaceBetween={30}
         slidesPerView={1}  // Bir vaqtning o'zida ikkita slayd ko'rinadi
@@ -30,7 +30,7 @@ const Slider = () => {
         <SwiperSlide>
           <div>
             <h1>Share your OG status</h1>
-            <p>in telegram stories</p>
+            <p>in Telegram stories</p>
             <button>
               <span>Share</span>
             </button>
@@ -39,7 +39,7 @@ const Slider = () => {
         <SwiperSlide>
           <div>
             <h1>Share your OG status</h1>
-            <p>in telegram stories</p>
+            <p>in Telegram stories</p>
             <button>
               <span>Share</span>
             </button>
@@ -48,7 +48,7 @@ const Slider = () => {
         <SwiperSlide>
           <div>
             <h1>Share your OG status</h1>
-            <p>in telegram stories</p>
+            <p>in Telegram stories</p>
             <button>
               <span>Share</span>
             </button>

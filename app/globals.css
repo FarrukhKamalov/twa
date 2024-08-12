@@ -106,8 +106,9 @@ body {
 }
 
 .swiper{
-  height: 150px;
+  height: 140px;
   margin: 20px;
+
 }
 .swiper-slide {
   padding: 10px;
@@ -121,21 +122,25 @@ body {
 
 .swiper-slide h1{
   color: white;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 1px;
+  font-weight: 900;
 }
 .swiper-slide button{
   background-color: white;
-  padding: 0px 15px;
+  padding: 2px 15px;
+  margin-top: 10px;
   border-radius: 14px;
-  margin-top: 5px;
+  margin-top: 12px;
   span{
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: 700;
   }
 }
 
 .swiper-slide p{
   color: white;
+  font-size: 20px;
 }
 
 .swiper-slide img {
