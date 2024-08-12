@@ -34,6 +34,7 @@ const Slider = () => {
               color: "white",
               padding: "20px",
               textAlign: "left",
+              barderRadius:"8px",
             }}
           >
             <Typography variant="h6" gutterBottom>
