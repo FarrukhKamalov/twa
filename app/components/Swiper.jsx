@@ -32,7 +32,7 @@ const Slider = () => {
             <h1>Share your OG status</h1>
             <p>in Telegram stories</p>
             <button>
-              <span>Share</span>
+              <span className='font-bold'>Share</span>
             </button>
           </div>
         </SwiperSlide>
@@ -41,7 +41,7 @@ const Slider = () => {
             <h1>Share your OG status</h1>
             <p>in Telegram stories</p>
             <button>
-              <span>Share</span>
+              <span className='font-bold'>Share</span>
             </button>
           </div>        
         </SwiperSlide>
@@ -50,7 +50,7 @@ const Slider = () => {
             <h1>Share your OG status</h1>
             <p>in Telegram stories</p>
             <button>
-              <span>Share</span>
+              <span className='font-bold'>Share</span>
             </button>
           </div>        
         </SwiperSlide>
