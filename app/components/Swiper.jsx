@@ -32,6 +32,7 @@ const Slider = () => {
             sx={{
               backgroundColor: "#121212",
               color: "white",
+              padding: "10px",
               borderRadius:"8px",
               textAlign: "left",
             }}
