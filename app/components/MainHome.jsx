@@ -21,7 +21,7 @@ const MainHome = () => {
                 />
               </div>
               <div>
-                <p className="text-white text-center font-bold text-[20px] mb-4">
+                <p className="text-white text-center font-bold text-[20px] mb-1">
                   Blynd
                 </p>
               </div>
