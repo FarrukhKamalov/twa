@@ -15,7 +15,7 @@ const Slider = () => {
   return (
     <div className="max-w-4xl mb-14">
       <Swiper
-        spaceBetween={30}
+        spaceBetween={10}
         centeredSlides={true}
         autoplay={{
           delay: 2500,
