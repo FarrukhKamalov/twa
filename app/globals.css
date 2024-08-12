@@ -104,53 +104,6 @@ body {
   justify-content: center;
   gap: 10px;
 }
-
-.swiper{
-  height: 147px;
-  border-radius: 20px;
-  width: 95%;
-  margin: 20px;
-
-}
-.swiper-slide {
-  padding: 10px;
-  width: 350px;
-  margin-top: 5px;
-  background: rgb(31, 29, 29);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide h1{
-  color: white;
-  font-size: 17px;
-  font-weight: 700;
-}
-.swiper-slide button{
-  background-color: white;  
-  padding: 2px 12px;
-  margin-top: 18px;
-  border-radius: 14px;
-  margin-top: 12px;
-  span{
-    font-size: 17px;
-    font-weight: 400;
-  }
-}
-
-.swiper-slide p{
-  color: white;
-  font-size: 15px;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .post{
   background-color: white;
   width: 90% ;
@@ -170,6 +123,11 @@ body {
   display: flex;
   justify-content: center;
   gap: 8px; /* Nuqtalar orasidagi masofa */
+}
+
+
+.css-1e9rooj{
+  width: auto;
 }
 
 .swiper-pagination-bullet {

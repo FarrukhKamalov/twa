@@ -10,13 +10,13 @@ const MainHome = () => {
           <div className="flex flex-col gap-5 items-center justify-center">
             <div className="flex flex-col items-center">
               <button className="bro bg-white flex gap-2 items-center rounded-sm p-1 w-[150px] mt-2 mb-2">
-                <MdCastConnected className="text-[11px]" />
-                <span className="text-[11px] font-medium">Connect wallet</span>
+                <MdCastConnected className="text-[15px]" />
+                <span className="text-[17px] font-medium">Connect wallet</span>
               </button>
               <div className="w-[185px] h-[]">
                 <img
                   src="/assets/images/505.png"
-                  className="w-40 flex justify-center items-center ml-4"
+                  className="w-50 flex justify-center items-center m-auto"
                   alt="no image"
                 />
               </div>
