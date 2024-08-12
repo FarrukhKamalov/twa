@@ -106,7 +106,9 @@ body {
 }
 
 .swiper{
-  height: 155px;
+  height: 150px;
+  border-radius: 20px;
+  width: 95%;
   margin: 20px;
 
 }
@@ -128,12 +130,12 @@ body {
 .swiper-slide button{
   background-color: white;  
   padding: 2px 12px;
-  margin-top: 12px;
+  margin-top: 15px;
   border-radius: 14px;
   margin-top: 12px;
   span{
     font-size: 17px;
-    font-weight: 900;
+    font-weight: 700;
   }
 }
 
