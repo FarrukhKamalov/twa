@@ -15,7 +15,7 @@ const Slider = () => {
     <div className="max-w-4xl">
       <Swiper
         spaceBetween={30}
-        slidesPerView={1.5}  // Bir vaqtning o'zida ikkita slayd ko'rinadi
+        slidesPerView={1}  // Bir vaqtning o'zida ikkita slayd ko'rinadi
         centeredSlides={false}  // Slaydlar centerga joylashmasligi uchun
         autoplay={{
           delay: 2500,
@@ -54,16 +54,12 @@ const Slider = () => {
             </button>
           </div>        
         </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <h1>Share your OG status</h1>
-            <p>in telegram stories</p>
-            <button>
-              <span>Share</span>
-            </button>
-          </div>        
-        </SwiperSlide>
       </Swiper>
+      <div className='slider_oro'>
+        <p className='dots'></p>
+        <p className='dots'></p>
+        <p className='dots'></p>
+      </div>
     </div>
   );
 };
