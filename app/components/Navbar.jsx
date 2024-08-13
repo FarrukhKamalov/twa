@@ -11,8 +11,8 @@ const Navbar = () => {
 
   return (
     <div className="pb-4 relative z-50">
-      <div className="offtopicc fixed bottom-0 bg-black py-4">
-        <div className="offtopic mx-auto">
+      <div className="w-full fixed bottom-0 right-[2px] bg-black py-4">
+        <div className="mx-auto">
           <ul className="flex justify-between items-center text-white relative z-50">
             <li>
               <Link
