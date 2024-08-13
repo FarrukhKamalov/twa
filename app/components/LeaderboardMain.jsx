@@ -15,8 +15,8 @@ const LeaderboardMain = () => {
 
   return (
     <div className="w-full">
-      <div className="container p-4 m-4 bg-white/10 rounded-[10px]">
-        <div className="flex flex-col gap-4">
+      <div className="container p-4 mt-4 bg-white/10 rounded-[10px] w-11/12">
+        <div className="flex flex-col gap-4 m-auto">
           {leaderboardData.map((item, index) => (
             <div key={index} className="flex justify-between items-center">
               <div className="flex gap-10 items-center">
