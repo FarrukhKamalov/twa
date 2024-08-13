@@ -35,23 +35,27 @@ const LeaderboardMain = () => {
                   </p>
                 </div>
               </div>
-              <buttun className="text-[25px]">
+              <button className="text-[25px]">
                 {item.rank ? (
                   item.rank
                 ) : (
                   <FaMedal className={item.medalClass} />
                 )}
-              </buttun  >
+              </button>
             </div>
           ))}
         </div>
       </div>
-      <div className="flex gap-8">
-        <AvatarFallback className="text-white font-medium">
-            <p>BB</p>
-        </AvatarFallback>
-        <p className="font-medium">Bla Bla Channel</p>
-        <button className="px-4 py-1">Join</button>
+      <div className="flex gap-14 justify-center items-center">
+                <Avatar>
+                  <AvatarFallback className="offt text-white font-medium">
+                      BB
+                  </AvatarFallback>
+                </Avatar>
+        <p className="text-white font-medium">Bla Bla Channel</p>
+        <button className="px-4 py-1 rounded-xl bg-blue-500 text-white">
+          Join
+        </button>
       </div>
     </div>
   );

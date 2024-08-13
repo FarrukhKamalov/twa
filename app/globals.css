@@ -156,3 +156,8 @@ body {
 .salom::after{
   color: black;
 }
+
+.offt{
+  background-color: blue;
+  border-radius: 50%;
+}
