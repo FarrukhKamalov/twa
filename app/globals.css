@@ -152,3 +152,7 @@ body {
 .swiper-wrapper{
   margin: 10px;
 }
+
+.salom::after{
+  color: black;
+}

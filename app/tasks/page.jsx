@@ -1,3 +1,5 @@
+"use client";
+
 import { FaCheck } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
