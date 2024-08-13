@@ -55,6 +55,34 @@ const tasks = [
     name: "Make a TON Transaction",
     title: "+3,000 DOGS",
     button: "Check",
+  },
+  {
+    id: 6,
+    icon: <PiBoneFill />,
+    name: "Make a TON Transaction",
+    title: "+3,000 DOGS",
+    button: "Check",
+  },
+  {
+    id: 6,
+    icon: <PiBoneFill />,
+    name: "Make a TON Transaction",
+    title: "+3,000 DOGS",
+    button: "Check",
+  },
+  {
+    id: 6,
+    icon: <PiBoneFill />,
+    name: "Make a TON Transaction",
+    title: "+3,000 DOGS",
+    button: "Check",
+  },
+  {
+    id: 6,
+    icon: <PiBoneFill />,
+    name: "Make a TON Transaction",
+    title: "+3,000 DOGS",
+    button: "Check",
   }
 ];
 
@@ -131,7 +159,7 @@ const Tasks = () => {
               </h1>
             </div> */}
 
-            {/* <div className="flex flex-col justify-between gap-5">
+            {/*<div className="flex flex-col justify-between gap-5">
               {rewards.map((items, index) => {
                 return (
                   <div key={index}>
