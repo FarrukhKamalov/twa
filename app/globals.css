@@ -156,3 +156,7 @@ body {
 .salom::after{
   color: black;
 }
+.offtopic{
+  width: 98%;
+  margin: auto;
+}
