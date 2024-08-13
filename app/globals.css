@@ -157,6 +157,6 @@ body {
   color: black;
 }
 .offtopic{
-  width: 98%;
+  max-width: 95%;
   margin: auto;
 }

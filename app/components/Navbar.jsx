@@ -10,9 +10,9 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <div className="pb-4 relative z-50 offtopic">
+    <div className="pb-4 relative z-50">
       <div className="w-full fixed bottom-0 bg-black py-4">
-        <div className="container mx-auto">
+        <div className="offtopic mx-auto">
           <ul className="flex justify-between items-center text-white relative z-50">
             <li>
               <Link
