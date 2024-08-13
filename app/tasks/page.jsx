@@ -56,34 +56,6 @@ const tasks = [
     title: "+3,000 DOGS",
     button: "Check",
   },
-  {
-    id: 6,
-    icon: <PiBoneFill />,
-    name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
-    button: "Check",
-  },
-  {
-    id: 6,
-    icon: <PiBoneFill />,
-    name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
-    button: "Check",
-  },
-  {
-    id: 6,
-    icon: <PiBoneFill />,
-    name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
-    button: "Check",
-  },
-  {
-    id: 6,
-    icon: <PiBoneFill />,
-    name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
-    button: "Check",
-  }
 ];
 
 // const rewards = [
