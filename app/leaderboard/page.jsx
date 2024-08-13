@@ -5,7 +5,7 @@ import LeadingbordHome from "../components/LeadingbordHome";
 const page = () => {
   return (
     <div>
-      <LeadingbordHome />
+      {/* <LeadingbordHome /> */}
       <LeaderboardMain />
     </div>
   );

@@ -6,17 +6,16 @@ import { FaMedal } from "react-icons/fa";
 const LeaderboardMain = () => {
   const leaderboardData = [
     {
-      name: "elkanadi",
-      score: "19,522,606 DOGS",
+      name: "Bla Bla Chanel",
       avatarBg: "bg-blue-700",
-      fallback: "El",
+      fallback: "BB",
       medalClass: "text-yellow-400",
     },
   ];
 
   return (
     <div className="w-full">
-      <div className="container py-12">
+      <div className="container p-4 mt-4 bg-white/10 rounded-[10px] w-[350px]">
         <div className="flex flex-col gap-4">
           {leaderboardData.map((item, index) => (
             <div key={index} className="flex justify-between items-center">
@@ -30,32 +29,14 @@ const LeaderboardMain = () => {
                   <p className="text-white text-[18px] font-medium">
                     {item.name}
                   </p>
-                  <p className="text-white/60 text-[18px] font-medium">
-                    {item.score}
-                  </p>
                 </div>
               </div>
-              <button className="text-[25px]">
-                {item.rank ? (
-                  item.rank
-                ) : (
-                  <FaMedal className={item.medalClass} />
-                )}
+              <button className="px-4 py-1 offff rounded-xl">
+                  Join
               </button>
             </div>
           ))}
         </div>
-      </div>
-      <div className="flex gap-14 justify-center items-center">
-                <Avatar>
-                  <AvatarFallback className="offt text-white font-medium">
-                      BB
-                  </AvatarFallback>
-                </Avatar>
-        <p className="text-white font-medium">Bla Bla Channel</p>
-        <button className="px-4 py-1 rounded-xl bg-blue-500 text-white">
-          Join
-        </button>
       </div>
     </div>
   );
