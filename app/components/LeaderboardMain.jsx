@@ -12,189 +12,6 @@ const LeaderboardMain = () => {
       fallback: "El",
       medalClass: "text-yellow-400",
     },
-    {
-      name: "glebtma",
-      score: "16,727,058 DOGS",
-      avatarBg: "bg-rose-600",
-      fallback: "Gl",
-      medalClass: "text-white/60",
-    },
-    {
-      name: "imGet",
-      score: "13,628,208 DOGS",
-      avatarBg: "bg-yellow-400",
-      fallback: "IM",
-      medalClass: "text-yellow-700",
-    },
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
-
-    {
-      name: "Esalat",
-      score: "13,380,208 DOGS",
-      avatarBg: "bg-blue-600",
-      fallback: "ES",
-      medalClass: "text-white",
-    },
   ];
 
   return (
@@ -218,16 +35,23 @@ const LeaderboardMain = () => {
                   </p>
                 </div>
               </div>
-              <div className="text-[25px]">
+              <buttun className="text-[25px]">
                 {item.rank ? (
                   item.rank
                 ) : (
                   <FaMedal className={item.medalClass} />
                 )}
-              </div>
+              </buttun  >
             </div>
           ))}
         </div>
+      </div>
+      <div className="flex gap-8">
+        <AvatarFallback className="text-white font-medium">
+            <p>BB</p>
+        </AvatarFallback>
+        <p className="font-medium">Bla Bla Channel</p>
+        <button className="px-4 py-1">Join</button>
       </div>
     </div>
   );
