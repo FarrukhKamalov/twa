@@ -14,7 +14,10 @@ const LeaderboardMain = () => {
   ];
 
   return (
-    <div className="w-full">
+    <div className="w-full mt-2">
+      <h1 className="text-white font-bold text-[25px] sm:text-[25px] md:text-[35px] lg:text-[40px] xl:text-[45px] text-center">
+          Channels Me
+        </h1>
       <div className="container p-4 mt-4 bg-white/10 rounded-[10px] w-11/12">
         <div className="flex flex-col gap-4 m-auto">
           {leaderboardData.map((item, index) => (
@@ -31,7 +34,7 @@ const LeaderboardMain = () => {
                   </p>
                 </div>
               </div>
-              <button className="px-4 py-1 offff rounded-xl">
+              <button className="bg-amber-400 px-4 py-1 offff rounded-xl">
                   Join
               </button>
             </div>
