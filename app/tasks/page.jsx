@@ -5,7 +5,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { TbBeta } from "react-icons/tb";
 import { PiBoneFill } from "react-icons/pi";
-import { BsStars } from "react-icons/bs";
+import { BsFillCameraVideoFill, BsStars } from "react-icons/bs";
 import { GoStarFill } from "react-icons/go";
 
 const tasks = [
@@ -39,7 +39,7 @@ const tasks = [
 
   {
     id: 5,
-    icon: <FaCheck />,
+    icon: <BsFillCameraVideoFill />,
     name: "Make a TON Transaction",
     button: "Chek",
   },
