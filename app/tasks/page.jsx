@@ -13,7 +13,6 @@ const tasks = [
     id: 1,
     icon: <FaCheck />,
     name: "Make a TON Transaction",
-    title: "+3,000",
     button: "Start",
   },
 
@@ -21,7 +20,6 @@ const tasks = [
     id: 2,
     icon: <FaTelegramPlane />,  
     name: "Make a TON Transaction",
-    title: "+3,000",
     button: "Start",
   },
 
@@ -29,7 +27,6 @@ const tasks = [
     id: 3,
     icon: <RiTwitterXLine />,
     name: "Make a TON Transaction",
-    title: "+3,000 Blynd",
     button: "Start",
   },
 
@@ -37,7 +34,6 @@ const tasks = [
     id: 4,
     icon: <TbBeta />,
     name: "Make a TON Transaction",
-    title: "+3,000 Blynd",
     button: "Start",
   },
 
@@ -45,7 +41,6 @@ const tasks = [
     id: 5,
     icon: <FaCheck />,
     name: "Make a TON Transaction",
-    title: "+3,000 Blynd",
     button: "Chek",
   },
 
@@ -53,7 +48,6 @@ const tasks = [
     id: 6,
     icon: <FaCheck />,
     name: "Make a TON Transaction",
-    title: "+3,000 Blynd",
     button: "Check",
   },
 ];
@@ -76,52 +70,49 @@ const tasks = [
 
 const Tasks = () => {
   return (
-    // <div className="w-full">
-    //   <div className=" container mx-auto py-12">
-    //     <div>
-    //       <h1 className="text-white text-[25px] font-medium text-start mb-8">
-    //         Tasks
-    //       </h1>
-    //     </div>
+    <div className="w-full">
+      <div className=" container mx-auto py-12">
+        <div>
+          <h1 className="text-white text-[25px] font-medium text-start mb-8">
+            Tasks
+          </h1>
+        </div>
 
-    //     <div>
-    //       <div className="flex flex-col justify-between gap-5">
-    //         {tasks.map((items, index) => {
-    //           return (
-    //             <div key={index}>
-    //               <div className="flex gap-2 justify-between items-center">
-    //                 <div className="text-white text-[18px] bg-white/20 p-2 rounded-full">
-    //                   {items.icon}
-    //                 </div>
-    //                 <div className="text-white">
-    //                   <p className="text-white text-[18px] font-medium">
-    //                     {items.name}
-    //                   </p>
-    //                   <p className="text-[15px] text-white/50 font-medium">
-    //                     {items.title}
-    //                   </p>
-    //                 </div>
+        <div>
+          <div className="flex flex-col justify-between gap-5">
+            {tasks.map((items, index) => {
+              return (
+                <div key={index}>
+                  <div className="flex gap-2 justify-between items-center">
+                    <div className="text-white text-[18px] bg-white/20 p-2 rounded-full">
+                      {items.icon}
+                    </div>
+                    <div className="text-white">
+                      <p className="text-white text-[18px] font-medium">
+                        {items.name}
+                      </p>
+                      {/* <p className="text-[15px] text-white/50 font-medium">
+                        {items.title}
+                      </p> */}
+                    </div>
 
-    //                 <div className="bg-white/30 hover:bg-white/40 transition-all duration-300 flex items-center justify-center p-2 rounded-[12px] w-[120px]">
-    //                   <button className="text-white text-[18px] font-medium">
-    //                     {items.button}
-    //                   </button>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //           );
-    //         })}
-    //       </div>
+                    <div className="bg-white/30 hover:bg-white/40 transition-all duration-300 flex items-center justify-center p-2 rounded-[12px] w-[120px]">
+                      <button className="text-white text-[18px] font-medium">
+                        {items.button}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
 
-    //       {/* <div className="pb-10">
+          {/* <div className="pb-10">
            
-    //       </div> */}
-    //     </div>
-    //   </div>
-    // </div>
-    <div>
-      <p>Hello</p>
-    </div>
+          </div> */}
+        </div>
+      </div>
+    </div>  
   );
 };
 
