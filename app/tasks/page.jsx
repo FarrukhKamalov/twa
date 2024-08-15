@@ -1,7 +1,7 @@
 "use client";
 
 import { FaCheck } from "react-icons/fa6";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaBlog, FaTelegramPlane } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { TbBeta } from "react-icons/tb";
 import { PiBoneFill } from "react-icons/pi";
@@ -11,7 +11,7 @@ import { GoStarFill } from "react-icons/go";
 const tasks = [
   {
     id: 1,
-    icon: <FaCheck />,
+    icon: <FaBlog />,
     name: "Make a TON Transaction",
     button: "Start",
   },
@@ -46,7 +46,7 @@ const tasks = [
 
   {
     id: 6,
-    icon: <FaCheck />,
+    icon: <FaBlog />,
     name: "Make a TON Transaction",
     button: "Check",
   },
