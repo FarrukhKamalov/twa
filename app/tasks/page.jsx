@@ -1,7 +1,7 @@
 "use client";
 
 import { FaCheck } from "react-icons/fa6";
-import { FaBlog, FaTelegramPlane } from "react-icons/fa";
+import { FaBlog, FaTelegramPlane, FaVideo } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { TbBeta } from "react-icons/tb";
 import { PiBoneFill } from "react-icons/pi";
@@ -13,42 +13,42 @@ const tasks = [
     id: 1,
     icon: <FaBlog />,
     name: "Make a TON Transaction",
-    button: "Start",
+    button: "Read",
   },
 
   {
     id: 2,
-    icon: <FaTelegramPlane />,  
+    icon: <FaBlog />,  
     name: "Make a TON Transaction",
-    button: "Start",
+    button: "Read",
   },
 
   {
     id: 3,
-    icon: <RiTwitterXLine />,
+    icon: <FaBlog />,
     name: "Make a TON Transaction",
-    button: "Start",
+    button: "Read",
   },
 
   {
     id: 4,
-    icon: <TbBeta />,
+    icon: <FaVideo />,
     name: "Make a TON Transaction",
-    button: "Start",
+    button: "View",
   },
 
   {
     id: 5,
     icon: <BsFillCameraVideoFill />,
     name: "Make a TON Transaction",
-    button: "Chek",
+    button: "View",
   },
 
   {
     id: 6,
     icon: <FaBlog />,
     name: "Make a TON Transaction",
-    button: "Check",
+    button: "Read",
   },
 ];
 
