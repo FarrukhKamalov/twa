@@ -13,7 +13,7 @@ const tasks = [
     id: 1,
     icon: <FaCheck />,
     name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
+    title: "+3,000 Blynd",
     button: "Start",
   },
 
@@ -21,7 +21,7 @@ const tasks = [
     id: 2,
     icon: <FaTelegramPlane />,  
     name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
+    title: "+3,000 Blynd",
     button: "Start",
   },
 
@@ -29,7 +29,7 @@ const tasks = [
     id: 3,
     icon: <RiTwitterXLine />,
     name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
+    title: "+3,000 Blynd",
     button: "Start",
   },
 
@@ -37,7 +37,7 @@ const tasks = [
     id: 4,
     icon: <TbBeta />,
     name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
+    title: "+3,000 Blynd",
     button: "Start",
   },
 
@@ -45,7 +45,7 @@ const tasks = [
     id: 5,
     icon: <FaCheck />,
     name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
+    title: "+3,000 Blynd",
     button: "Chek",
   },
 
@@ -53,7 +53,7 @@ const tasks = [
     id: 6,
     icon: <FaCheck />,
     name: "Make a TON Transaction",
-    title: "+3,000 DOGS",
+    title: "+3,000 Blynd",
     button: "Check",
   },
 ];
