@@ -51,7 +51,7 @@ const tasks = [
 
   {
     id: 6,
-    icon: <PiBoneFill />,
+    icon: <FaCheck />,
     name: "Make a TON Transaction",
     title: "+3,000 DOGS",
     button: "Check",
