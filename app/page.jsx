@@ -19,7 +19,7 @@ function Home() {
       {userData ? (
         <>
           <ul className='mb-4'>
-            <li className='text-white font-bold text-center'>{userData.username || userData.first_name}</li>
+            <li className='text-white font-bold text-center'>{userData.username || userData.first_name || userData.last_name}</li>
           </ul>
           <div>
             <MainHome />
