@@ -37,7 +37,7 @@ const Navbar = () => {
                 }
               >
                 <FaTasks className="text-[25px]" />
-                <h1 className="text-[15px]">Tasks</h1>
+                <h1 className="text-[15px]">Tutorial</h1>
               </Link>
             </li>
             <li>

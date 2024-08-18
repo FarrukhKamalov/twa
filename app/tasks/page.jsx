@@ -74,8 +74,8 @@ const Tasks = () => {
       <div className=" container mx-auto py-12">
         <div>
           <h1 className="text-white text-[25px] font-medium text-start mb-8">
-            Tasks
-          </h1>
+            Tutorial
+          </h1> 
         </div>
 
         <div>

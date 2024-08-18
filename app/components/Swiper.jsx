@@ -44,18 +44,20 @@ const Slider = () => {
             <Typography variant="body2" gutterBottom>
               In Telegram stories
             </Typography>
-            <Button
-              variant="contained"
-              sx={{
-                backgroundColor: "white",
-                color: "black",
-                textTransform: "none",
-                marginTop: "10px",
-                borderRadius: "20px",
-              }}
-            >
-              Share
-            </Button>
+            <a href="https://t.me/blynd_DeFi">
+              <Button
+                variant="contained"
+                sx={{
+                  backgroundColor: "white",
+                  color: "black",
+                  textTransform: "none",
+                  marginTop: "10px",
+                  borderRadius: "20px",
+                }}
+              >
+                Share
+              </Button>
+            </a>
           </Box>
         </SwiperSlide>
         <SwiperSlide>
