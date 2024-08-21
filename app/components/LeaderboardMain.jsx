@@ -26,7 +26,7 @@ const LeaderboardMain = () => {
               <div className="flex gap-10 items-center">
                 <Avatar className={item.avatarBg}>
                   <AvatarFallback className="text-white font-medium">
-                    {item.fallback}
+                    {item.avatarBg}
                   </AvatarFallback>
                 </Avatar>
                 <div>
