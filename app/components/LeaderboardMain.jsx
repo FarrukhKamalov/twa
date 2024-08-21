@@ -37,7 +37,7 @@ const LeaderboardMain = () => {
               </div>
               <a href={item.channelLink} className="bg-amber-400 px-4 py-1 offff rounded-xl">
                   Join
-              </button>
+              </a>
             </div>
           ))}
         </div>
