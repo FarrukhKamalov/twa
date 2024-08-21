@@ -6,10 +6,11 @@ import { FaMedal } from "react-icons/fa";
 const LeaderboardMain = () => {
   const leaderboardData = [
     {
-      name: "Bla Bla Chanel",
-      avatarBg: "bg-blue-700",
+      name: "Sardor Jo'rayev",
+      avatarBg: "https://static7.tgstat.ru/channels/_0/83/83b618801f32efd8991fce6e1d1509b1.jpg",
       fallback: "BB",
       medalClass: "text-yellow-400",
+      channelLink: "https://t.me/sardor_juraevv"
     },
   ];
 
@@ -34,7 +35,7 @@ const LeaderboardMain = () => {
                   </p>
                 </div>
               </div>
-              <button className="bg-amber-400 px-4 py-1 offff rounded-xl">
+              <a href={item.channelLink} className="bg-amber-400 px-4 py-1 offff rounded-xl">
                   Join
               </button>
             </div>
