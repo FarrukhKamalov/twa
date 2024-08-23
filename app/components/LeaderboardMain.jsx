@@ -5,12 +5,19 @@ import { FaMedal } from "react-icons/fa";
 
 const LeaderboardMain = () => {
   const leaderboardData = [
+    // {
+    //   name: "Sardor Jo'rayev",
+    //   avatarBg: "https://static7.tgstat.ru/channels/_0/83/83b618801f32efd8991fce6e1d1509b1.jpg",
+    //   fallback: "SJ",
+    //   medalClass: "text-yellow-400",
+    //   channelLink: "https://t.me/sardor_juraevv"
+    // },
     {
       name: "Sardor Jo'rayev",
       avatarBg: "https://static7.tgstat.ru/channels/_0/83/83b618801f32efd8991fce6e1d1509b1.jpg",
       fallback: "SJ",
       medalClass: "text-yellow-400",
-      channelLink: "https://t.me/sardor_juraevv"
+      channelLink: "https://t.me/+QhpZkY9G7ws2YTU0"
     },
   ];
 
